@@ -10,7 +10,7 @@
 
 GameProject/
 │
-├── main.lua
+├── main.lua 
 ├── conf.lua
 │
 ├── src/
@@ -32,7 +32,7 @@ GameProject/
 │
 ├── README.md
 
-### main.lua
+### main.lua (copied from professor, haven't edited yet)
 initialized and run the game using love2D
 ### conf.lua
 configure game setting
