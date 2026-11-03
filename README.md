@@ -1,5 +1,44 @@
-# cmpm80k
+# cmpm80k Love2D project
 
-Task for this week:
-1. create .ink file
-2. create map
+## Project Goals
+1. create a 2D map
+2. intergrate .ink file
+3. implement player movement/interaction
+4. develop playable first build
+
+## project structure (potential)
+
+GameProject/
+│
+├── main.lua
+├── conf.lua
+│
+├── src/
+│   ├── player.lua
+│   ├── map.lua
+│   ├── dialogue.lua
+│   ├── interaction.lua
+│   └── gameState.lua
+│
+├── story/
+│   ├── main.ink
+│   └── story.json
+│
+├── assets/
+│   ├── images/
+│   ├── maps/
+│   ├── sounds/
+│   └── fonts/
+│
+├── README.md
+
+### main.lua
+initialized and run the game using love2D
+### conf.lua
+configure game setting
+### src/
+handles in game resources
+### story
+ink narrative 
+### Assets
+in game iamge,sound etc.
