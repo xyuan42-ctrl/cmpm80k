@@ -36,8 +36,8 @@ GameProject/
 initialized and run the game using love2D
 ### conf.lua
 configure game setting
-### src/
-handles in game resources
+### libraries/
+test map - map made form tiled, currently a placeholder empty file
 ### story
 ink narrative 
 ### Assets
